@@ -21,7 +21,7 @@ A LIGGGHTS input script typically has 4 parts.
 	* [Bond_style](#Bond_style)
 	* [Fix_wall_gran](#Fix_wall_gran)
 	* [Fix_mesh_surface](#Fix_mesh_surface)
-* [Atom/Particle definition and insertation](#Atom/Particle definition and insertation)	
+* [Atom_Particle definition and insertation](#Atom_Particle definition and insertation)	
 	* [Read_data](#Reaf_data)
 	* [Read_restart](#Read_restart)  	
 	* [Region](#Region)
@@ -45,7 +45,7 @@ Set parameters that need to be defined before atoms/particles are created or rea
 
 The relevent commands are `units`, `dimension`, `newton`,`processors`, `boundary`, `atom_style`, `atom_modify`.
 
-1. Units
+**Units**
 
 style = lj or real or metal or si or cgs or electron or micro or nano
 

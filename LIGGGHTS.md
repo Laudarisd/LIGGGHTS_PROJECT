@@ -9,7 +9,6 @@ This section describes the structure of a typical LIGGGHTS(R)-PUBLIC input scrip
 A LIGGGHTS input script typically has 4 parts.
 
 <!--ts-->
-* [Initialization](#Initialization)
     * [Initialization](#Initialization)
     	* [Units](#Units)
     	* [Dimension](#Dimension)

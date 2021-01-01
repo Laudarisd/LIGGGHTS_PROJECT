@@ -45,7 +45,8 @@ Set parameters that need to be defined before atoms/particles are created or rea
 
 The relevent commands are `units`, `dimension`, `newton`,`processors`, `boundary`, `atom_style`, `atom_modify`.
 
-**Units**
+Units
+======
 
 style = lj or real or metal or si or cgs or electron or micro or nano
 
@@ -56,7 +57,8 @@ This command sets the style of units used for a simulation. it determines the un
 **This command cannot be used after the simulation box is defined by a read_data or create_box command.**
 ----------------------------------------------------------------------------------------------
 
-2. Dimension
+Dimension
+===========
 
 By default runs 3d.
 
